@@ -34,11 +34,11 @@ driver.find_element_by_css_selector('.text-center > .btn').click()
 
 time.sleep(3)
 #input recipient
-driver.find_element_by_id('inputTo').send_keys('victorerik@yandex.ru; victoreric1409@gmail.com; ingatang@hotmail.com')
+driver.find_element_by_id('inputTo').send_keys('victorerik@yandex.ru; victoreric1409@gmail.com; chepurovova@yandex.ru')
 time.sleep(3)
 
 #input subject
-driver.find_element_by_id('inputSubject').send_keys('автоматизированное тестирование')
+driver.find_element_by_id('inputSubject').send_keys('автоматизированное тестирование. \n  Я не использую hotmail, потому что не могу найти способ получить загрузку файла элемента.\n Поэтому я решил воспользоваться почтовым сервисом TUSUR.\n  source code : https://github.com/victoreric/auto_testing_email \n \n  С уважением, \n  Виктор Э.П  ')
 time.sleep(5)
 
 # message
