@@ -60,7 +60,7 @@ try :
     driver.find_element_by_css_selector('.bulk-send-confirm').click()
     time.sleep(1)
 
-    #SendMail
+    #cek folder SendMail
     driver.find_element_by_xpath('//*[@id="mailbox-list-5e5718d856c6c504f59ecb13"]/a/span[3]').click()
     time.sleep(1)
 
