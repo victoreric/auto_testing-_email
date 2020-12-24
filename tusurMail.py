@@ -44,13 +44,6 @@ try :
     # отправить e-mail. сообщение с темой и текстом(не менее 50 символов), прикрепленным файлом(excel/docx/txt)
     driver.find_element_by_css_selector('.note-editable').send_keys('Автоматизирование тестирование с Selenium и Python \n Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fermentum eu purus dictum semper. Donec aliquet nisi quis sapien pulvinar tempus. Sed nec ultricies nibh. Integer eu ante leo. Aenean eros urna, hendrerit vitae bibendum sed, mollis eget nibh. Nunc vitae sagittis urna. Vestibulum varius, justo a luctus luctus, nunc elit gravida sem, sit amet ullamcorper orci neque vitae quam. Cras luctus dapibus hendrerit. \n Nunc iaculis viverra venenatis. In hac habitasse platea dictumst. Nam rutrum neque ut sagittis commodo. Duis turpis quam, luctus in ipsum eget, scelerisque malesuada augue. Nunc scelerisque magna purus, in lobortis est cursus quis. Vivamus convallis sagittis massa. Vivamus eget felis eu orci suscipit imperdiet. Ut vitae hendrerit sapien. Morbi nec convallis erat. Nullam dignissim nisi erat, eu vehicula ligula pellentesque ac.\n Suspendisse potenti. Nullam gravida nulla quis ipsum tincidunt semper. Suspendisse potenti. Praesent neque felis, bibendum quis nibh sed, consequat blandit elit. Vestibulum scelerisque metus eget urna placerat, sit amet faucibus dolor elementum. Nunc vel libero luctus mauris feugiat dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam a erat ultricies, pulvinar nunc quis, tempus lacus. Aliquam nec tempus nibh. Curabitur maximus tempus efficitur. Integer nisl erat, tristique nec sagittis in, maximus non dolor. Proin lorem nibh, ultricies cursus suscipit sit amet, imperdiet a velit. Integer blandit magna mi, commodo sagittis lacus interdum ac. In porttitor ut lacus ac varius. Nullam sodales ac purus in pulvinar.')
 
-    # time.sleep(3)
-
-    #capture message
-    # raw_filename="/Users/victoreric/selenium/images/message.png"
-    # driver.save_screenshot(raw_filename)
-    # time.sleep(2)
-
     #upload file
     driver.find_element_by_xpath('//*[@id="input-attachment"]').send_keys('/Users/victoreric/selenium/images/news.doc') 
     driver.find_element_by_xpath('//*[@id="input-attachment"]').send_keys('/Users/victoreric/selenium/images/tusur_small.png') 
